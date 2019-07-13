@@ -5,8 +5,8 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
 /**
+ * 监听项目的启动和停止
  * @author: Liangxp
- * @Description: 监听项目的启动和停止
  * @date: 2019/7/11 23:10
  */
 public class OrderListener implements ServletContextListener {

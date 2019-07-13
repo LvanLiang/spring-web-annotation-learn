@@ -8,12 +8,10 @@ import java.util.EnumSet;
 import java.util.Set;
 
 /**
+ * 容器启动的时候会将@HandlesTypes指定的这个类型下面的子类（实现类，子接口等）传递过来；传入感兴趣的类型；
  * @author: Liangxp
- * @Description:
  * @date: 2019/7/11 21:26
  */
-//容器启动的时候会将@HandlesTypes指定的这个类型下面的子类（实现类，子接口等）传递过来；
-//传入感兴趣的类型；
 @HandlesTypes(value = {UserService.class})
 public class MyServletContainerInitializer implements ServletContainerInitializer {
     /**
